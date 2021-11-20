@@ -1,8 +1,8 @@
-import React, {ReactElement} from 'react';
-import {AppRegistry, Platform} from 'react-native';
-import {Navigation} from './navigation';
+import React from 'react';
+import { AppRegistry, Platform } from 'react-native';
+import { Navigation } from './navigation';
 
-export function App(): ReactElement {
+export function App(): React.ReactElement {
   return <Navigation />;
 }
 
